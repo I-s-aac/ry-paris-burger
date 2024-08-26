@@ -4,7 +4,9 @@
     font-family: sans-serif;
 }
 
-header, .pageContent, .imageRow {
+header,
+.pageContent,
+#titleImage {
     display: flex;
 }
 
@@ -13,6 +15,18 @@ header, .pageContent, .imageRow {
     background-size: cover;
     height: 80vh;
     width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 100px;
+}
+
+#titleImage h1 {
+    background-color: white;
+    padding: 1%;
+}
+
+h1 {
+    font-family: "Poppins", "sans-serif";
 }
 
 header {
@@ -39,8 +53,12 @@ a {
 
 .pageContentSegment {
     padding: 3%;
-    height: 70vh;
+    min-height: 70vh;
     font-size: 175%;
+}
+
+.pageContentSegment h1 {
+    margin-bottom: 2%;
 }
 
 .graybg {
@@ -48,5 +66,12 @@ a {
 }
 
 .imageRow {
-    flex-direction: row;
+    display: flex;
+    margin: 2%;
+    justify-content: space-evenly;
+}
+
+.imageRow img {
+    width: 25%;
+    object-fit: cover;
 }
