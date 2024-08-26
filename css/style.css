@@ -4,9 +4,19 @@
     font-family: sans-serif;
 }
 
+header, .pageContent, .imageRow {
+    display: flex;
+}
+
+#titleImage {
+    background-image: url("../images/hero-image.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
 header {
     background-color: orange;
-    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -22,3 +32,21 @@ a {
     text-decoration: none;
 }
 
+.pageContent {
+    flex-direction: column;
+    width: 100%;
+}
+
+.pageContentSegment {
+    padding: 3%;
+    height: 70vh;
+    font-size: 175%;
+}
+
+.graybg {
+    background-color: lightgray;
+}
+
+.imageRow {
+    flex-direction: row;
+}
