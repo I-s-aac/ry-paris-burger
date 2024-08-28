@@ -8,7 +8,25 @@
     display: flex;
 }
 
-#titleImage {
+.recipeOverview {
+    display: flex;
+}
+
+.recipeOverview span {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.recipeOverview p {
+    font-weight: bold;
+    display: inline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.titleImage {
     display: flex;
     background-image: url("../images/hero-image.jpg");
     background-size: cover;
@@ -19,7 +37,11 @@
     padding-bottom: 100px;
 }
 
-#titleImage h1 {
+.bengal-burgerBackgroundImage {
+    background-image: url("../images/bengal-burger.jpg");
+}
+
+.titleImage h1 {
     background-color: white;
     padding: 1%;
 }
@@ -54,7 +76,6 @@ a {
 
 .pageContentSegment {
     padding: 3%;
-    min-height: 70vh;
     font-size: 2vw;
 }
 
