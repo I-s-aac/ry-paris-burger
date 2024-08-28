@@ -4,6 +4,24 @@
     font-family: sans-serif;
 }
 
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+    color: red;
+    font-size: 3vw;
+}
+
+.recipeTitle {
+
+}
+
+.reviews {
+    
+}
+
 .pageContent {
     display: flex;
 }
@@ -50,7 +68,8 @@ h1 {
     font-family: "Poppins", "sans-serif";
 }
 
-header, footer {
+header,
+footer {
     display: flex;
     background-color: orange;
     flex-direction: row;
@@ -60,7 +79,8 @@ header, footer {
     padding: 1vw;
 }
 
-nav a, footer a {
+nav a,
+footer a {
     margin: 0px 20px;
 }
 
