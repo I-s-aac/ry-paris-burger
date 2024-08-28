@@ -4,13 +4,12 @@
     font-family: sans-serif;
 }
 
-header,
-.pageContent,
-#titleImage {
+.pageContent {
     display: flex;
 }
 
 #titleImage {
+    display: flex;
     background-image: url("../images/hero-image.jpg");
     background-size: cover;
     height: 80vh;
@@ -29,15 +28,17 @@ h1 {
     font-family: "Poppins", "sans-serif";
 }
 
-header {
+header, footer {
+    display: flex;
     background-color: orange;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     font-size: 1vw;
+    padding: 1vw;
 }
 
-nav a {
+nav a, footer a {
     margin: 0px 20px;
 }
 
@@ -63,6 +64,10 @@ a {
 
 .graybg {
     background-color: lightgray;
+}
+
+.thickGrayBorder {
+    border: 0.5vw solid lightgray;
 }
 
 .whitebg {
