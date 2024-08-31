@@ -1,3 +1,4 @@
+/*oof. after we learned scss earlier, i wish i could rewrite this but it's already done in not scss*/
 * {
     padding: 0;
     margin: 0;
@@ -10,16 +11,30 @@
         'wght' 400,
         'GRAD' 0,
         'opsz' 24;
-    color: red;
-    font-size: 3vw;
 }
 
-.recipeTitle {
+iframe {
+    width: 50vw;
+    height: 25vw;
+}
 
+.starIcon {
+    color: red;
+    font-size: 4vw;
+}
+
+.printerIcon {
+    color: black;
+    font-size: 3vw;
+    border-color: black;
+    border: 1px solid;
+    border-radius: 100vw;
 }
 
 .reviews {
-    
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vh;
 }
 
 .pageContent {
@@ -30,14 +45,52 @@
     display: flex;
 }
 
+.recipeInstructions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipeInstructions div {
+    width: 40vw;
+}
+
 .recipeOverview span {
     padding-left: 2vw;
     padding-right: 2vw;
 }
 
+.centerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .recipeOverview p {
     font-weight: bold;
     display: inline;
+}
+
+.recipeHeader {
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.recipeHeader button {
+    font-size: 2vw;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: 0px solid red;
+    border-radius: 15px;
+}
+
+.recipeHeader p {
+    color: rgb(88, 88, 88);
+    font-family: "Poppins" "sans-serif";
+    padding: 5vh 10vw;
 }
 
 .bold {
@@ -64,7 +117,7 @@
     padding: 1%;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Poppins", "sans-serif";
 }
 
@@ -84,6 +137,21 @@ footer a {
     margin: 0px 20px;
 }
 
+.justifyCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.alignCenter {
+    display: flex;
+    align-items: center;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -99,8 +167,17 @@ a {
     font-size: 2vw;
 }
 
-.pageContentSegment h1 {
+.pageContentSegment h1, .pageContentSegment h2, .pageContentSegment h3, .pageContentSegment h4 {
     margin-bottom: 2%;
+}
+
+ul {
+    list-style-position: inside;
+    margin-bottom: 5vh;
+}
+
+ol li {
+    margin-bottom: 4vh;
 }
 
 .graybg {
