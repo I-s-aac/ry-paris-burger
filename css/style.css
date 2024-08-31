@@ -54,11 +54,6 @@ iframe {
     width: 40vw;
 }
 
-.recipeOverview span {
-    padding-left: 2vw;
-    padding-right: 2vw;
-}
-
 .centerContent {
     display: flex;
     justify-content: center;
@@ -66,8 +61,9 @@ iframe {
 }
 
 .recipeOverview p {
-    font-weight: bold;
     display: inline;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 .recipeHeader {
