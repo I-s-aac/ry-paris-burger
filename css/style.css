@@ -153,6 +153,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: rgb(66, 66, 66);
+}
+
 .pageContent {
     flex-direction: column;
     width: 100%;
